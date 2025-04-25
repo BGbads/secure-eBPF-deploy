@@ -12,15 +12,15 @@ To run the example, make sure you have the following installed
 openssl genrsa -out key.pem 4096
 openssl rsa -in key.pem -pubout -out pubkey.pem
 
-## compiling
+## Compiling
 details is provided in the Makefile just run:
 make
 
 ## Clean
-to clean up tools run 
+to clean up tools run:
 make clean
 
-## for verification 
+## For verification 
 
 chmod +x verify_and_load.sh
 ./verify_and_load.sh
