@@ -3,10 +3,10 @@ This repository provides a simple working example of our proposed framwork
 
 ## Dependencies
 To run the example, make sure you have the following installed
-clang: compile the eBPF program 
-bpftool: load and attach eBPF program
-python3: run scripts
-openssl: Sign and verify the binary  
+1. clang: compile the eBPF program 
+2. bpftool: load and attach eBPF program
+3. python3: run scripts
+4. openssl: Sign and verify the binary  
 
 ## Generating key pair
 openssl genrsa -out key.pem 4096
