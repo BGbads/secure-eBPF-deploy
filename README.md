@@ -10,6 +10,7 @@ To run the example, make sure you have the following installed
 
 ## Generating key pair
 `openssl genrsa -out key.pem 4096`
+
 `openssl rsa -in key.pem -pubout -out pubkey.pem`
 
 ## Compiling
