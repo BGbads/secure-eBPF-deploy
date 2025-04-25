@@ -22,8 +22,9 @@ make clean
 
 ## For verification 
 
-chmod +x verify_and_load.sh
-./verify_and_load.sh
+`chmod +x verify_and_load.sh`  
+`./verify_and_load.sh`
+
 
 The script performs the following steps
 1. veriies the eBPF signature using OpenSSL
