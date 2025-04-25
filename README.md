@@ -9,16 +9,18 @@ To run the example, make sure you have the following installed
 4. openssl: Sign and verify the binary  
 
 ## Generating key pair
-openssl genrsa -out key.pem 4096
-openssl rsa -in key.pem -pubout -out pubkey.pem
+`openssl genrsa -out key.pem 4096`
+`openssl rsa -in key.pem -pubout -out pubkey.pem`
 
 ## Compiling
-Details is provided in the Makefile just run:
-make
+Details are provided in the `Makefile`. Just run:  
+`make`
+
 
 ## Clean
 To clean up tools run:
-make clean
+`make clean`
+
 
 ## For verification 
 
