@@ -17,7 +17,11 @@ details is provided in the Makefile just run:
 make
 
 ## Clean
+<<<<<<< HEAD
 to clean up tools run:
+=======
+to clean up tools run: 
+>>>>>>> dcc02482fabb826c5411d909239a5cc1605aae63
 make clean
 
 ## For verification 
