@@ -1,0 +1,29 @@
+{
+    "metadata": {
+        "name": "trace_openat",
+        "author": "Your Name",
+        "description": "Traces sys_enter_openat for specific PID"
+    },
+    "permissions": {
+        "helpers": [
+            "bpf_get_current_pid_tgid",
+            "bpf_printk"
+        ],
+        "subsystems": [
+            "tracing"
+        ]
+    },
+    "attach_rules": {
+        "hooks": [
+            "tracepoint/syscalls/sys_enter_openat"
+        ],
+        "capabilities": [
+            "CAP_BPF"
+        ]
+    },
+    "system_requirements": {
+        "kernel_version": ">=5.8",
+        "btf": true,
+        "core_compatibility": true
+    }
+}
