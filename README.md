@@ -17,7 +17,7 @@ details is provided in the Makefile just run:
 make
 
 ## Clean
-to clean up tools run 
+to clean up tools run: 
 make clean
 
 ## for verification 
