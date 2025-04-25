@@ -13,11 +13,11 @@ openssl genrsa -out key.pem 4096
 openssl rsa -in key.pem -pubout -out pubkey.pem
 
 ## Compiling
-details is provided in the Makefile just run:
+Details is provided in the Makefile just run:
 make
 
 ## Clean
-to clean up tools run:
+To clean up tools run:
 make clean
 
 ## For verification 
